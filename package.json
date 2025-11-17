@@ -1,16 +1,16 @@
 {
   "name": "v",
+  "homepage": "https://github.com/jitufrontend/MovieSearch",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "homepage": "https://github.com/jitufrontend/MovieSearch"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
