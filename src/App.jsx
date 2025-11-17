@@ -8,7 +8,7 @@ import MovieDetails from "./pages/MovieDetails";
 const App = () => {
   return (
     <>
-      <Router>
+      <Router basename="/MovieSearch">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
